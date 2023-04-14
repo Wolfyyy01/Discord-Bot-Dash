@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.png"
+      type="image/x-icon"
+    />
 
     <!-- TailwindCss -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -15,9 +20,13 @@
     />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
 
+    <!-- Css -->
+    <link rel="stylesheet" href="./assets/css/index.css" />
+
     <title>Bot Dashboard | Home</title>
   </head>
   <body class="bg-slate-700">
+    <!-- Navbar -->
     <nav class="bg-white border-gray-200 dark:bg-gray-900">
       <div
         class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
@@ -39,11 +48,12 @@
             data-dropdown-placement="bottom"
           >
             <span class="sr-only">Open user menu</span>
-            <img
-              class="w-8 h-8 rounded-full"
-              src="./assets/images/profile-icon.png"
-              alt="user photo"
-            />
+            <lord-icon
+              src="https://cdn.lordicon.com/ljvjsnvh.json"
+              trigger="hover"
+              style="width: 32px; height: 32px"
+            >
+            </lord-icon>
           </button>
           <!-- Dropdown menu -->
           <div
@@ -125,28 +135,15 @@
                 href="#"
                 class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
                 aria-current="page"
-                >Home</a
+              >
+                Home</a
               >
             </li>
             <li>
               <a
                 href="#"
                 class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >About</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >Services</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >Pricing</a
+                >Commands</a
               >
             </li>
             <li>
@@ -160,5 +157,63 @@
         </div>
       </div>
     </nav>
+
+    <!-- Header -->
+    <div
+      id=""
+      class="max-w-[1280px] mx-auto w-full h-screen max-h-[770px] min-h-[600px] flex items-center drop-shadow-2xl"
+    >
+      <div
+        class="md:bg-[url('./assets/images/logo.png')] bg-no-repeat bg-center md:bg-left w-full h-[525px] md:h-[700px] flex items-center md:pl-[55%] justify-center md:justify-start"
+      >
+        <div
+          class="py-[200px] flex flex-col items-center md:items-start px-5 md:px-0"
+        >
+          <img src="./assets/images/logo.png" class="w-[300px] md:hidden" />
+          <div
+            class="w-[90%] border-t-[3px] border-[#584d94] pb-5 md:w-[30%]"
+          ></div>
+          <h2 class="text-4xl">Your Name Bot</h2>
+          <p class="text-xl">Invite me on your server</p>
+          <div class="columns-2 pt-16 flex justify-center">
+            <button
+              class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800"
+            >
+              <span
+                class="relative flex items-center px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0"
+              >
+                <lord-icon
+                  src="https://cdn.lordicon.com/bguzswrc.json"
+                  trigger="loop"
+                  delay="100"
+                  style="width: 32px; height: 32px"
+                >
+                </lord-icon>
+                <span>Invite me</span>
+              </span>
+            </button>
+            <button
+              class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800"
+            >
+              <span
+                class="relative flex items-center px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0"
+              >
+                <lord-icon
+                  src="https://cdn.lordicon.com/hursldrn.json"
+                  trigger="loop"
+                  delay="1000"
+                  colors="primary:#66ee78,secondary:#3080e8"
+                  style="width: 32px; height: 32px"
+                >
+                </lord-icon>
+                <span></span>Commands
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
+  <!-- LordIcon -->
+  <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
 </html>
