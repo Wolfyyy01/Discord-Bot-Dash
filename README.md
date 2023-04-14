@@ -12,7 +12,7 @@ Just clone or download or fork the repo and open index.html
 
 # I use:
 
-[Html](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[Tailwind Css](https://tailwindcss.com) -> A CSS framework
-[Flowbite](https://flowbite.com) -> Addon for TailwindCss
+[Html](https://developer.mozilla.org/en-US/docs/Web/HTML)  
+[Tailwind Css](https://tailwindcss.com) -> A CSS framework  
+[Flowbite](https://flowbite.com) -> Addon for TailwindCss  
 [LordIcon](https://lordicon.com) -> Animate icons framework
