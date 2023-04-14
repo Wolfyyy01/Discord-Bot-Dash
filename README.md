@@ -16,3 +16,8 @@ Just clone or download or fork the repo and open index.html
 [Tailwind Css](https://tailwindcss.com) -> A CSS framework  
 [Flowbite](https://flowbite.com) -> Addon for TailwindCss  
 [LordIcon](https://lordicon.com) -> Animate icons framework
+
+# Preview
+
+![preview1](https://github.com/Wolfyyy01/Discord-Bot-Dash/blob/master/assets/images/Preview1.png)
+![preview2](https://github.com/Wolfyyy01/Discord-Bot-Dash/blob/master/assets/images/Preview2.png)
